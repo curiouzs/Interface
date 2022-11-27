@@ -37,6 +37,7 @@ public class Example : Bank
         }
         else
         {
+            Console.Write("Enter the amount to withdraw  ");
             withdrawal();
         }
     }
@@ -44,7 +45,7 @@ public class Example : Bank
     {
         int amount = Convert.ToInt32(Console.ReadLine());
         balance -= amount;
-        Console.WriteLine(balance);
+        Console.WriteLine("Balance = " + balance);
     }
     public void deposit()
     {
@@ -64,7 +65,7 @@ public class Hello
 }
 ```
 ## Output:
-![2022-06-09 (5)](https://user-images.githubusercontent.com/75235477/172869283-b8c0bbe4-50b1-4de8-a2b6-5b40c15091d6.png)
+![image](https://user-images.githubusercontent.com/75234646/204126549-c62e8450-7364-40aa-a07c-fb636c4edb3e.png)
 
 ## Result:
 Thus the C# program using interface concept has been implemented successfully
